@@ -88,7 +88,7 @@ public class ThymeleafTemplateEngine extends TemplateEngine {
 
 			}
 
-			Map<String, ?> modelMap = (Map<String, ?>) modelAndView.getModel();
+			Map<String, Object> modelMap = (Map<String, Object>) modelAndView.getModel();
 
 			AbstractContext ctx;
 			
